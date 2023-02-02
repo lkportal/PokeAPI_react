@@ -1,5 +1,4 @@
-
-
+import {Title} from './AppStyle'
 import InputLimite from "./components/utilities/InputLimite";
 
 
@@ -12,7 +11,7 @@ function App() {
  return(
   <div className="App">
     
-    <h1>Lista de Pokemons</h1>
+    <Title>Lista de Pokemons</Title>
     
    <InputLimite/>
     

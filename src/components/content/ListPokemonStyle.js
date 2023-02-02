@@ -13,8 +13,13 @@ export const ULCont = styled.ul`
 
 `
 export const Lista = styled.li`
-     border: solid 1px red;
+     border: solid 1px #9E87C7;
+     background-color:#BCA1ED ;
      padding: 1em;
      margin: 1em;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    color: #1D1A66;
 `

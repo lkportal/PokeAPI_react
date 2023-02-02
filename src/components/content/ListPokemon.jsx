@@ -11,8 +11,10 @@ const { pokemonsList } = useFetch(url);
 return (
 <ConteinerCard>
     <ULCont>
-    {pokemonsList && pokemonsList.map((e,i) => <Lista key={e.id}>Nome:{e.name} Number:{i}
-        <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i+1}.png`} alt="" />
+    {pokemonsList && pokemonsList.map((e,i) => <Lista key={e.id}>
+    <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i+1}.png`} alt="" />
+        {e.name} {i}
+    
     </Lista>)}
     
     </ULCont>
