@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-Sua versão local
-=======
-Versão remota
->>>>>>> origin/main
-
+# PokeAPI with React
+## Technologies used
+- [x] React
+- [x] Styled-Component
